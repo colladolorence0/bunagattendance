@@ -1,0 +1,46 @@
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.displaynone {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  border-radius: 0;
+  position: fixed; /* Fix navbar position */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+.navbar-header {
+  padding: 10px;
+  display: inline-block;
+}
+
+  .navbar-brand img {
+    max-width: 350px;
+    height: 100px; /* Adjust this height value */
+    margin: 0;
+  }
+  
+
+  .navbar-nav li a {
+    color: #fff !important;
+  }
+  
+
+
